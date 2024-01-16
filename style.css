@@ -14,7 +14,7 @@ body {
 
 .container {
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('./assets/img/background.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%), url('./assets/img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,23 +106,23 @@ h1 {
     padding: 22px;
     background: transparent;
     margin: 12px 0;
-    border: 2px solid lightgray;
+    border: .2px solid rgb(116, 112, 112);
     cursor: pointer;
 }
 
 .email-section button {
     margin: 0 12px;
     padding: 10px;
-    background: red;
+    background: #e50914;
     color: white;
     font-size: 19px;
-    border: 2px solid lightgray;
+    border: 2px solid transparent;
     cursor: pointer;
 
 }
 
 .email-section button:hover {
-    background: #e50914;
+    background: #cf0c15;
 }
 
 .email-section span {
@@ -234,11 +234,11 @@ h1 {
 
 .ready-watch input {
     height: 50px;
-    width: 23rem;
+    width: 40%;
     padding: 22px;
     background: transparent;
     margin: 12px 0;
-    border: 2px solid lightgray;
+    border: .2px solid rgb(65, 63, 63);
     cursor: pointer;
     margin: 0 10px;
     border-radius: 5px;
@@ -254,7 +254,7 @@ h1 {
     background: red;
     color: white;
     font-size: 21px;
-    border: 2px solid lightgray;
+    border: 2px solid transparent;
     cursor: pointer;
     border: 2px solid #e50914;
     border-radius: 5px;
@@ -266,7 +266,7 @@ h1 {
 }
 
 .ready-watch button:hover {
-    background: #e50914;
+    background: #cf0c15;
 }
 
 .ready-watch button span {
